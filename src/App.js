@@ -12,10 +12,6 @@ function App() {
         <source src="https://samplelib.com/lib/preview/mp3/sample-15s.mp3" type="audio/mpeg" />
         Tu navegador no soporta el elemento de audio.
       </audio>
-        <audio controls>
-          <source src="https://samplelib.com/lib/preview/mp3/sample-15s.mp3" type="audio/mpeg"/>
-          "Tu navegador no soporta el elemento de audio."
-        </audio>
         <p>Video ejemplo 3</p>
       <video controls width="600">
         <source src="https://samplelib.com/lib/preview/mp4/sample-30s.mp4" type="video/mp4" />
