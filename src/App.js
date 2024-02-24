@@ -8,7 +8,14 @@ function App() {
         <p>imagen primero 1</p>
         <img src='https://img.freepik.com/vector-gratis/atomo-ilustracion-modelo-electrones-neutrones-aislados_1284-53084.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1708732800&semt=ais' />
         <p>Audio 2</p>
-        <audio controls><source src='https://samplelib.com/lib/preview/mp3/sample-15s.mp3' type="audio/mp3" /></audio>
+      <audio controls>
+        <source src="https://samplelib.com/lib/preview/mp3/sample-15s.mp3" type="audio/mpeg" />
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+        <audio controls>
+          <source src="https://samplelib.com/lib/preview/mp3/sample-15s.mp3" type="audio/mpeg"/>
+          "Tu navegador no soporta el elemento de audio."
+        </audio>
       </header>
     </div>
   );
