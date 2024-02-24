@@ -21,6 +21,8 @@ function App() {
         <source src="https://samplelib.com/lib/preview/mp4/sample-30s.mp4" type="video/mp4" />
         Tu navegador no soporta el elemento de video.
       </video>
+      <h1>Ejemplo de texto 4</h1>
+      <p>DOM significa Document Object Model, en español sería Modelo de Objetos del Documento. Es una interfaz de programación que nos permite crear, cambiar, o remover elementos del documento. También podemos agregar eventos a esos elementos para hacer más dinámica nuestra página.El DOM visualiza el documento de HTML como un árbol de tres nodos. Un nodo representa un documento de HTML.</p>
       </header>
     </div>
   );
